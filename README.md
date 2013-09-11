@@ -1,4 +1,3 @@
-web-ng-listview
-===============
+# ng-listview #
 
-ListView directive for AngularJS
+A list view directive for AngularJS that adds paging support to tabuler data, no matter how its presented.
