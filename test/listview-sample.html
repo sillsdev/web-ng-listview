@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" ng-app="palaso.sample.listview" >
+<head>
+	<meta charset="utf-8">
+	<title>Listview Test</title>
+	<link rel="stylesheet" href="../src/css/bootstrap.css" />
+	<link rel="stylesheet" href="../src/css/listview.css" />
+</head>
+<body>
+<h3>Listview Sample</h3>
+<div ng-controller="ListViewSampleCtrl">
+<div listview items="things" visible-items="visibleThings" >
+<table class="table" style="width: 100%">
+	<tbody>
+	<tr ng-repeat="thing in visibleThings">
+		<td>{{thing.name}}</td>
+	</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+<script src="../src/lib/js/angular.min.js"></script>
+<script src="../src/lib/js/ng-ui-bootstrap-tpls-0.4.0.js"></script>
+<script src="../src/listview.js"></script>
+<script src="listview-sample.js"></script>
+
+</body>
+</html>

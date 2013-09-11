@@ -1,5 +1,5 @@
 
-angular.module('palaso.ui.listview', [])
+angular.module('palaso.ui.listview', ['ui.bootstrap'])
   // Typeahead
   .directive('listview', ["$timeout", function($timeout) {
 		return {
@@ -15,11 +15,7 @@ angular.module('palaso.ui.listview', [])
 				visibleItems: "=",
 			},
 			controller: ["$scope", function($scope) {
-				$scope.noOfPages = 3;  // TODO: calculate this automatically
-				$scope.currentPage = 1;
-				$scope.maxSize = 5;
 				$scope.itemsPerPage = 10;  // This should match the default value for the selector above
-				$scope.items = [];
 				
 				this.activate = function(item) {
 					$scope.active = item;
