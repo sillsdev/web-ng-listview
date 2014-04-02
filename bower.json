@@ -1,0 +1,20 @@
+{
+  "name": "ng-listview",
+  "description": "A list view directive for AngularJS that adds paging support to tabular data.",
+  "main": "listview.js",
+  "authors": [
+    "SIL"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor_bower"
+  ],
+  "dependencies": {
+    "angular": "~1.0.x",
+    "angular-ui-bootstrap-bower": "~0.4.0",
+    "bootstrap-css": "2.x"
+  }
+}
