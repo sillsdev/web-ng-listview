@@ -14,7 +14,7 @@
   ],
   "dependencies": {
     "angular": "~1.2.x",
-    "angular-ui-bootstrap-bower": "~0.8.0",
-    "bootstrap-css": "2.x"
+    "angular-ui-bootstrap-bower": "~0.10.0",
+    "bootstrap-css": "3.x"
   }
 }
