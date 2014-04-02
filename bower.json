@@ -6,7 +6,7 @@
     "SIL"
   ],
   "license": "MIT",
-  "private": false,
+  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
